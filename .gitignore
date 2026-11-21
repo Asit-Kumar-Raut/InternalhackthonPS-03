@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Large Model Artifacts & Weights (Auto-downloaded/trained on setup)
+*.joblib
+*.pkl
+*.pt
+
+# Local sample videos
+video/
+*.mp4
+*.avi
+*.mkv
+
+# Node / Frontend Dependencies
+node_modules/
+.npm
+.eslintcache
+*.local
+
+# Environment & Logs
+.env
+.env.*.local
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
